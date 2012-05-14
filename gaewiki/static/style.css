@@ -15,14 +15,12 @@ a:link { color: #f00; text-decoration: none; }
 a:visited {color: #f00; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/*
 a, #pb a.int {
-  color: #0645ad;
+  /* color: #0645ad; */
 }
 #pb a.missing {
-  color: red;
+  color: black;
 }
-*/
 
 #pb img {
   background-color: white;
@@ -102,9 +100,10 @@ a, #pb a.int {
 #pb.wtabs {
   border-top: none;
 }
+
 .extl a {
-  color: #36b;
   /*
+  color: #36b;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAFVBMVEVmmcwzmcyZzP8AZswAZv////////9E6giVAAAAB3RSTlP///////8AGksDRgAAADhJREFUGFcly0ESAEAEA0Ei6/9P3sEcVB8kmrwFyni0bOeyyDpy9JTLEaOhQq7Ongf5FeMhHS/4AVnsAZubxDVmAAAAAElFTkSuQmCC) no-repeat 100% 50%;
   padding-right: 13px;
   */
@@ -147,7 +146,7 @@ a, #pb a.int {
 #tabs li a {
   margin: 0;
   line-height: 24px;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 #tabs li a:hover, #tabs .active a {
   text-decoration: underline;

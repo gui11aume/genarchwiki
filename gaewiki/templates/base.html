@@ -8,6 +8,7 @@
         {% endfor %}
       {% else %}
         <link rel="stylesheet" type="text/css" href="/gae-wiki-static/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/gae-wiki-static/pretty.css"/>
       {% endif %}
         <!--[if gte IE 6]>
       {% if settings.extra_ie_styles %}
@@ -77,5 +78,11 @@
         {% if footer %}{{ footer|wikify|safe }}{% endif %}
       </div>
 		{% endblock %}
+		<script src="/gae-wiki-static/prettify.js"></script>
+		<script type="text/javascript">
+		prettyPrint();
+		</script>
+
+
     </body>
 </html>
