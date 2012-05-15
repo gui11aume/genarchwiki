@@ -130,6 +130,9 @@ a, #pb a.int {
   border: solid 1px #ccc;
   padding: 2px;
 }
+#pb code {
+  background-color: #eee;
+}
 
 #tabs {
   list-style-type: none;
